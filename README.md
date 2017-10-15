@@ -26,3 +26,4 @@ GNU Public License
 
 * 鉄道利用による事業者の収入はiConomyに指定日に一括で振り込まれる。
 
+* Test
