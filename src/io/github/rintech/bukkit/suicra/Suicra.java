@@ -1,7 +1,9 @@
+package io.github.rintech.bukkit.suicra;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin {
+public class Suicra extends JavaPlugin {
 
 	@EventHandler
 	public void onLoad() {
