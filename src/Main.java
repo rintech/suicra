@@ -7,17 +7,17 @@ public class Main extends JavaPlugin {
 
 	@EventHandler
 	public void onLoad() {
-		getLogger().info("Suicraプラグインをロード中です・・・");
+		getLogger().info(Language_ja.onLoad);
 	}
 
 	@EventHandler
 	public void onEnable() {
-		getLogger().info("Suicraプラグインが有効になりました！");
+		getLogger().info(Language_ja.onEnable);
 	}
 
 	@EventHandler
 	public void onDisable() {
-		getLogger().info("Suicraプラグインが無効になりました！");
+		getLogger().info(Language_ja.onDisable);
 	}
 
 	public void onPlayerJoin(PlayerJoinEvent event) {
@@ -28,4 +28,5 @@ public class Main extends JavaPlugin {
 			player.sendMessage(Language_ja.Include_suicra);
 		}
 	}
+
 }
