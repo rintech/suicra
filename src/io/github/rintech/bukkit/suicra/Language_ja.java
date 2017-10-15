@@ -1,3 +1,4 @@
+package io.github.rintech.bukkit.suicra;
 
 public class Language_ja {
 	//System Message

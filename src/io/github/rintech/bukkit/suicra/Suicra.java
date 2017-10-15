@@ -1,9 +1,6 @@
-<<<<<<< HEAD:src/io/github/rintech/bukkit/suicra/Suicra.java
 package io.github.rintech.bukkit.suicra;
 
-=======
 import org.bukkit.entity.Player;
->>>>>>> origin/Naayo:src/Main.java
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
