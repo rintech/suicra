@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<classpathentry kind="lib" path="lib/spigot-1.9.4-R0.1-SNAPSHOT-latest.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+=======
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/snufk/Documents/Java/Workspace-git/Suicra/lib/spigot-1.9.4-R0.1-SNAPSHOT.jar"/>
+>>>>>>> 29e65d5bac5cd1ebc84d96d7ac86798ad0534d0a
 	<classpathentry kind="output" path="bin"/>
 </classpath>
