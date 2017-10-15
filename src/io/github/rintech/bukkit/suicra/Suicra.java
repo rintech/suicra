@@ -1,22 +1,37 @@
+<<<<<<< HEAD:src/io/github/rintech/bukkit/suicra/Suicra.java
 package io.github.rintech.bukkit.suicra;
 
+=======
+import org.bukkit.entity.Player;
+>>>>>>> origin/Naayo:src/Main.java
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Suicra extends JavaPlugin {
 
 	@EventHandler
 	public void onLoad() {
-		getLogger().info("Suicraプラグインをロード中です・・・");
+		getLogger().info(Language_ja.onLoad);
 	}
 
 	@EventHandler
 	public void onEnable() {
-		getLogger().info("Suicraプラグインが有効になりました！");
+		getLogger().info(Language_ja.onEnable);
 	}
 
 	@EventHandler
 	public void onDisable() {
-		getLogger().info("Suicraプラグインが無効になりました！");
+		getLogger().info(Language_ja.onDisable);
 	}
+
+	public void onPlayerJoin(PlayerJoinEvent event) {
+		Player player = event.getPlayer();
+		if (player.isOp()) {
+			player.sendMessage(Language_ja.Include_Suicra_isOP);
+		} else {
+			player.sendMessage(Language_ja.Include_suicra);
+		}
+	}
+
 }
